@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    container_name: portfolio-nurachman
+    volumes:
+      - .:/usr/local/apache2/htdocs/
